@@ -1,0 +1,11 @@
+ch03/__pycache__/
+ch03/sample.py
+ch03/mnist_test.py
+dataset/t10k-images-idx3-ubyte.gz
+dataset/t10k-labels-idx1-ubyte.gz
+dataset/train-images-idx3-ubyte.gz
+dataset/train-labels-idx1-ubyte.gz
+ch03/sample_weight.pkl
+dataset/mnist.pkl
+dataset/__pycache__/
+common/__pycache__/
