@@ -30,7 +30,15 @@ def numerical_gradient_2d(f, X):
         
         return grad
 
+def funcTest(func):
+    def wrapper(f, x):
+        print('start' + str(func.__name__))
+        grad = func(f, x)
+        print('end' + str(func.__name__))
+        return grad
+    return wrapper
 
+@funcTest
 def numerical_gradient(f, x):
     h = 1e-4 # 0.0001
     grad = np.zeros_like(x)
